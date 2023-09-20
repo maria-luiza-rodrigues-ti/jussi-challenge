@@ -1,0 +1,36 @@
+{
+  "stores": [
+    {
+      "id": 1,
+      "name": "Brastemp",
+      "url": "https://www.brastemp.com.br/",
+      "alt": "Logo Brastemp",
+      "width": "160",
+      "height": "25.6"
+    },
+    {
+      "id": 2,
+      "name": "Compra Certa",
+      "url": "https://www.compracerta.com.br/",
+      "alt": "Logo Compra Certa",
+      "width": "180",
+      "height": "21.6"
+    },
+    {
+      "id": 3,
+      "name": "Consul",
+      "url": "https://www.consul.com.br/",
+      "alt": "Logo Consul",
+      "width": "88",
+      "height": "38"
+    },
+    {
+      "id": 4,
+      "name": "The Bar",
+      "url": "https://br.thebar.com",
+      "alt": "Logo The Bar",
+      "width": "129.38",
+      "height": "38"
+    }
+  ]
+}

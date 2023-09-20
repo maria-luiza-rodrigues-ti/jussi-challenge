@@ -1,5 +1,3 @@
-import { Header } from "@/components/Header/Header";
-import { SectionOne } from "@/components/SectionOne/SectionOne";
 import "./globals.css";
 import type { Metadata } from "next";
 import { Barlow } from "next/font/google";
@@ -17,14 +15,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className={barlow.className}>
-        <Header />
-        <main>
-          <SectionOne />
-        </main>
-        {children}
-      </body>
+    <html lang="pt-BR">
+      <body className={barlow.className}>{children}</body>
     </html>
   );
 }
