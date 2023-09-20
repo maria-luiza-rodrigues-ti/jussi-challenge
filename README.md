@@ -1,5 +1,5 @@
 <h1 align="center"> 
-	Jussi Challenge
+	Jüssi Challenge
 </h1>
 
 <p align="center">
@@ -11,7 +11,7 @@
 
 ## 💻 Sobre o projeto
 
-## O intuito desse projeto foi criar uma Home Page responsiva da Jussi, utilizando NextJS (Framework ReactJS), Typescript e Tailwind. Além disso, é uma website que consome a API DummyJson. Esse site é constituído pelo Header, o Main e o Footer, onde a API forneceria dados para a busca dinâmico e os produtos ao longo da Gome.
+## O intuito desse projeto foi criar uma Home Page responsiva da Jussi, utilizando NextJS (Framework ReactJS), Typescript e Tailwind. Além disso, é uma website que consome a API DummyJson. Esse site é constituído pelo Header, o Main e o Footer, onde a API forneceria dados para a busca dinâmico e os produtos ao longo da Home.
 
 ---
 
