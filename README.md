@@ -17,7 +17,7 @@
 
 ## 🚀 Como executar o projeto
 
-- [x] Acesso a página do site - : [https://jussi-challenge.vercel.app](https://jussi-challenge.vercel.app)
+- [x] Acesso a página do site : [https://jussi-challenge.vercel.app](https://jussi-challenge.vercel.app)
 
 ### Pré-requisitos
 
