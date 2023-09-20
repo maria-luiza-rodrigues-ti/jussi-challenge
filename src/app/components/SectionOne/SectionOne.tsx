@@ -1,5 +1,6 @@
 import ProductType from "@/app/types";
-import Cards from "./components/Cards";
+import CardsDesktop from "./components/CardsDesktop";
+import CardsMobile from "./components/CardsMobile";
 
 export default function SectionOne({ products }: { products: ProductType[] }) {
   return (
@@ -25,7 +26,8 @@ export default function SectionOne({ products }: { products: ProductType[] }) {
             Veja nossas soluções
           </a>
         </div>
-        <Cards products={products} />
+        <CardsDesktop products={products} />
+        <CardsMobile products={products} />
       </div>
     </section>
   );

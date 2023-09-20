@@ -1,15 +1,19 @@
 import Image from "next/image";
 import ProductType from "@/app/types";
 
-export default function Cards({ products }: { products: ProductType[] }) {
+export default function CardsDesktop({
+  products,
+}: {
+  products: ProductType[];
+}) {
   const arrayProducts = products.filter(
     (product: ProductType) => product.category === "furniture"
   );
   const arrayProductsReduced = arrayProducts.slice(0, 3);
 
   return (
-    <div>
-      <ul className="justify-center grid gap-6 md:grid-cols-[130px_79px_43px_87px_122px] md:grid-rows-[156px_53px_62px_156px_53px]">
+    <div className="hidden lg:flex">
+      <ul className=" justify-center lg:grid gap-6 md:grid-cols-[130px_79px_43px_87px_122px] md:grid-rows-[156px_53px_62px_156px_53px]">
         {arrayProductsReduced.map((product: ProductType, index: number) => {
           let className, anchor: string;
 
