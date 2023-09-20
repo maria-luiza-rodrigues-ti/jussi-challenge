@@ -55,7 +55,7 @@ $ yarn dev
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-#### **Website** ([React](https://reactjs.org/))
+#### **Website** ([Next](https://reactjs.org/))
 
 - **[NextJs](https://nextjs.org)**
 - **[Typescript](https://www.typescriptlang.org)**
