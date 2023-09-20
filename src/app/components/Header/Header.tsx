@@ -23,7 +23,7 @@ export default function Header() {
         <MenuLinks />
       </div>
       <div className="flex flex-row items-center gap-8">
-        <div>
+        <div className="lg:relative">
           <Search getSearchResults={setProducts} />
           <SearchResults results={products} />
         </div>

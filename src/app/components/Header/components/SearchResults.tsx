@@ -5,7 +5,7 @@ import ProductType from "@/app/types";
 
 export default function SearchResults({ results }: { results: ProductType[] }) {
   return (
-    <div className="absolute mt-6 max-h-[300px] w-[400px] rounded-xl right-[75px] bg-white overflow-hidden overflow-y-auto">
+    <div className="absolute mt-24 left-[15px] mx-auto lg:left-0 w-[85%] lg:mt-6 max-h-[300px] lg:w-[400px] rounded-xl right-[15px] bg-white overflow-hidden overflow-y-auto">
       {results.map((result: ProductType) => {
         return (
           <div
