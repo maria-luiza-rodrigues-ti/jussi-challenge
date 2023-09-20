@@ -1,5 +1,5 @@
 <h1 align="center"> 
-	Jussi Challenge
+	Jüssi Challenge
 </h1>
 
 <p align="center">
@@ -11,7 +11,7 @@
 
 ## 💻 Sobre o projeto
 
-## O intuito desse projeto foi criar uma Home Page responsiva da Jussi, utilizando NextJS (Framework ReactJS), Typescript e Tailwind. Além disso, é uma website que consome a API DummyJson. Esse site é constituído pelo Header, o Main e o Footer, onde a API forneceria dados para a busca dinâmico e os produtos ao longo da Gome.
+## O intuito desse projeto foi criar uma Home Page responsiva da Jussi, utilizando NextJS (Framework ReactJS), Typescript e Tailwind. Além disso, é uma website que consome a API DummyJson. Esse site é constituído pelo Header, o Main e o Footer, onde a API forneceria dados para a busca dinâmico e os produtos ao longo da Home.
 
 ---
 
@@ -30,7 +30,7 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 ```bash
 
 # Clone este repositório
-$ git clone https://github.com/mluizarodrigues/gobeyond-desafio-final
+$ git clone https://github.com/maria-luiza-rodrigues-ti/jussi-challenge 
 
 # Vá para a pasta da aplicação Front End
 $ cd gobeyond-desafio-final
@@ -55,7 +55,7 @@ $ yarn dev
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-#### **Website** ([React](https://reactjs.org/))
+#### **Website**
 
 - **[NextJs](https://nextjs.org)**
 - **[Typescript](https://www.typescriptlang.org)**
