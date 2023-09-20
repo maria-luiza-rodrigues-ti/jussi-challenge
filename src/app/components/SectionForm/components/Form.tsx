@@ -4,7 +4,7 @@ export default function Form() {
       <input
         type="text"
         placeholder="Digite seu e-mail"
-        className="w-10/12 bg-transparent placeholder:text-jussi-p placeholder:text-white"
+        className="w-10/12 bg-transparent text-white text-jussi-p placeholder:text-jussi-p placeholder:text-white focus:outline-none"
       />
       <input
         type="submit"
