@@ -30,7 +30,7 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 ```bash
 
 # Clone este repositório
-$ git clone https://github.com/mluizarodrigues/gobeyond-desafio-final
+$ git clone https://github.com/maria-luiza-rodrigues-ti/jussi-challenge 
 
 # Vá para a pasta da aplicação Front End
 $ cd gobeyond-desafio-final
@@ -55,7 +55,7 @@ $ yarn dev
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-#### **Website** ([Next](https://reactjs.org/))
+#### **Website**
 
 - **[NextJs](https://nextjs.org)**
 - **[Typescript](https://www.typescriptlang.org)**
