@@ -13,7 +13,7 @@ export default function CardsDesktop({
 
   return (
     <div className="hidden lg:flex">
-      <ul className=" justify-center lg:grid gap-6 md:grid-cols-[130px_79px_43px_87px_122px] md:grid-rows-[156px_53px_62px_156px_53px]">
+      <ul className=" justify-center lg:grid md:grid-cols-[130px_79px_43px_87px_122px] md:grid-rows-[156px_53px_62px_156px_53px]">
         {arrayProductsReduced.map((product: ProductType, index: number) => {
           let className, anchor: string;
 
@@ -40,7 +40,7 @@ export default function CardsDesktop({
                 src={product.images[0]}
                 alt="Imagem Produto"
                 width={165}
-                height={100}
+                height={165}
               />
               <a
                 href="/"
