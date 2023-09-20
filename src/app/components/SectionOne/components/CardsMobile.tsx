@@ -18,11 +18,23 @@ export default function CardsMobile({ products }: { products: ProductType[] }) {
   return (
     <div className="block md:hidden">
       <Swiper
-        slidesPerView={"auto"}
-        centeredSlides={true}
         spaceBetween={50}
         pagination={{
           clickable: true,
+        }}
+        breakpoints={{
+          320: {
+            slidesPerView: "auto",
+            spaceBetween: 20,
+          },
+          640: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
         }}
         modules={[Pagination]}
         className="justify-center grid gap-6 md:grid-cols-[130px_79px_43px_87px_122px] md:grid-rows-[156px_53px_62px_156px_53px]"

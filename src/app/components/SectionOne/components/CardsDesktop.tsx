@@ -12,8 +12,8 @@ export default function CardsDesktop({
   const arrayProductsReduced = arrayProducts.slice(0, 3);
 
   return (
-    <div className="hidden lg:flex">
-      <ul className=" justify-center lg:grid md:grid-cols-[130px_79px_43px_87px_122px] md:grid-rows-[156px_53px_62px_156px_53px]">
+    <div className="hidden md:flex">
+      <ul className=" justify-center grid md:grid-cols-[130px_79px_43px_87px_122px] md:grid-rows-[156px_53px_62px_156px_53px]">
         {arrayProductsReduced.map((product: ProductType, index: number) => {
           let className, anchor: string;
 
