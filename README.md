@@ -33,7 +33,7 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 $ git clone https://github.com/maria-luiza-rodrigues-ti/jussi-challenge 
 
 # Vá para a pasta da aplicação Front End
-$ cd gobeyond-desafio-final
+$ cd jussi-challenge
 
 # Instale as dependências
 $ npm install
